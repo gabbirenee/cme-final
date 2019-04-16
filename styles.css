@@ -13,15 +13,17 @@ body {
     font-size: 13pt;    /* Default font size  */
 }
 
-/* header {
-    border-bottom: 
-*/
+header {
+    /* position: fixed;  */
+    border-bottom: solid 3px #2b4570;
+}
 
 
 header, footer {
     background-color: #dbb1bc;
     color: #2b4570;
     min-width: 585px; 
+    width:100%; 
 }
 
 header img {
@@ -29,7 +31,7 @@ header img {
     display: block;
 }
 
-header a, footer a {
+header a, footer a{
     color: #2b4570;
     text-decoration: none; 
 }
@@ -48,11 +50,23 @@ nav {
 nav li {
     display: inline-block;
     font-size: 117%; 
-    margin: 2px 20px;
+    padding: 2px 20px;
 }
 
+footer {
+    text-align: center; 
+    padding: 12px; 
+    margin-top: 15px; 
+    border-top: solid 3px #2b4570;
+}
+
+#theContent {
+    padding: 40px;
+    line-height: 130%;
+}
 
 h1 {
     color: #2b4570;
     font-size: 200%; 
+    margin: 10px 0; 
 }
