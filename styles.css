@@ -9,16 +9,17 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #883955;
+    color: #f6e8ea;
 }
 
-header a {
+header a, footer a {
     color: #f6e8ea;
     text-decoration: none; 
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     color: #75dddd;
     border-bottom: 3px solid #75dddd;
 }
