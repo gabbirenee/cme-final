@@ -5,14 +5,20 @@
 }
 
 body {
-    background-color: #f6e8ea;
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color: #f6e8ea; */
+    background-color: snow; 
     font-family: 'Cabin', sans-serif;
     color: #323232;
 }
 
+header {
+    border-bottom: 
+}
+
 header, footer {
-    background-color: #883955;
-    color: #f6e8ea;
+    background-color: #f6e8ea;
+    color: #883955;
 }
 
 header img {
@@ -21,23 +27,31 @@ header img {
 }
 
 header a, footer a {
-    color: #f6e8ea;
+    color: #883955;
     text-decoration: none; 
 }
 
 header a:hover, footer a:hover {
-    color: #75dddd;
-    border-bottom: 3px solid #75dddd;
+    color: #e43f6f;
+    border-bottom: 3px solid #e43f6f;
 }
 
 nav {
     margin: 0 auto;
+    text-align: center;
 }
 
 nav li {
     display: inline-block;
+    font-size: 15pt; 
+    margin: 2px 20px;
 }
 
 h1 {
     color: #e43f6f;
+    font-size: 26pt; 
+}
+
+p {
+    font-size: 13pt;
 }
