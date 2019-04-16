@@ -20,7 +20,8 @@ header {
 
 
 header, footer {
-    background-color: #dbb1bc;
+    /* background-color: #dbb1bc; */
+    background-image: url(images/waffleConeBackground.jpg);
     color: #2b4570;
     min-width: 585px; 
     width:100%; 
@@ -37,8 +38,8 @@ header a, footer a{
 }
 
 header a:hover, footer a:hover {
-    color: #a8d0db;
-    border-bottom: 3px solid #a8d0db
+    color: #7180ac;
+    border-bottom: 3px solid #7180ac;
 }
 
 nav {
