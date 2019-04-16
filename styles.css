@@ -10,6 +10,7 @@ body {
     background-color: snow; 
     font-family: 'Cabin', sans-serif;
     color: #323232;
+    font-size: 13pt;    /* Default font size  */
 }
 
 /* header {
@@ -18,8 +19,9 @@ body {
 
 
 header, footer {
-    background-color: #f6e8ea;
-    color: #883955;
+    background-color: #dbb1bc;
+    color: #2b4570;
+    min-width: 585px; 
 }
 
 header img {
@@ -28,31 +30,29 @@ header img {
 }
 
 header a, footer a {
-    color: #883955;
+    color: #2b4570;
     text-decoration: none; 
 }
 
 header a:hover, footer a:hover {
-    color: #e43f6f;
-    border-bottom: 3px solid #e43f6f;
+    color: #a8d0db;
+    border-bottom: 3px solid #a8d0db
 }
 
 nav {
     margin: 0 auto;
     text-align: center;
+
 }
 
 nav li {
     display: inline-block;
-    font-size: 15pt; 
+    font-size: 117%; 
     margin: 2px 20px;
 }
 
-h1 {
-    color: #e43f6f;
-    font-size: 26pt; 
-}
 
-p {
-    font-size: 13pt;
+h1 {
+    color: #2b4570;
+    font-size: 200%; 
 }
