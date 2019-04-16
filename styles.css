@@ -7,11 +7,17 @@
 body {
     background-color: #f6e8ea;
     font-family: 'Cabin', sans-serif;
+    color: #323232;
 }
 
 header, footer {
     background-color: #883955;
     color: #f6e8ea;
+}
+
+header img {
+    margin: 0 auto; 
+    display: block;
 }
 
 header a, footer a {
@@ -22,4 +28,16 @@ header a, footer a {
 header a:hover, footer a:hover {
     color: #75dddd;
     border-bottom: 3px solid #75dddd;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+}
+
+h1 {
+    color: #e43f6f;
 }
