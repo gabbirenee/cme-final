@@ -67,7 +67,25 @@ footer {
 }
 
 h1 {
-    color: #2b4570;
+    color: #a37374;
     font-size: 200%; 
-    margin: 10px 0; 
+    margin: 20px 0; 
 }
+
+p {
+    margin: 15px 0;
+}
+
+/* Begin Company Styles */
+
+#imgIceCreamFlav {
+    float: right;
+    margin: 25px 0 0 40px; 
+}
+
+#imgRecycle {
+    float: left;
+    margin: 10px 20px 0 0;
+}
+
+/* End Company Styles */
