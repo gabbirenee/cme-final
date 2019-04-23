@@ -62,7 +62,7 @@ footer {
 }
 
 #theContent {
-    padding: 40px;
+    padding: 40px 100px;
     line-height: 130%;
 }
 
@@ -74,6 +74,13 @@ h1 {
 
 p {
     margin: 15px 0;
+}
+
+#toTop {
+    /* border: 2px solid #dbb1bc; */
+    background-color: #a8d0db;
+    padding: 4px; 
+    border-radius: 10px; 
 }
 
 /* Begin Company Styles */
