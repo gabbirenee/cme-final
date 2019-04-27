@@ -72,6 +72,11 @@ h1 {
     margin: 20px 0; 
 }
 
+h3 {
+    font-size: 140%;
+    color: #dbb1bc;
+}
+
 p {
     margin: 15px 0;
 }
@@ -102,18 +107,30 @@ p {
 
 /* #storeImg {
 } */
+.location {
+    margin: 50px 0;
+    /* position: relative;  */
+    /* max-width: 500px; 
+    min-width: 100px; */
+    /* float: left; */
+    /* height: 254px; */
+}
+
 button {
-    background-color: #a37874;
+    /* background-color: #a37874; */
+    background-color: #dbb1bc;
     /* color: #2b4570; */
     color: snow;
     border-color: snow;
-    font-size: 95%;
-    padding: 3px 6px; 
+    font-size: 110%;
+    padding: 5px 8px; 
     border-radius: 5px;
+    /* display: inline-block; */
+
 }
 
 button:hover {
-    background-color: #a8d0db;
+    background-color: #a8d0db
 }
 
 a {
@@ -130,8 +147,11 @@ table {
     border-collapse: collapse; 
     width: 50%;     /* These next couple lines make the table responsive */
     min-width: 100px; 
-    max-width: 400px; 
+    max-width: 500px; 
     margin: 40px 40px 0;
+    /* position: relative; */
+    /* right: 20px; */
+    /* float: right; */
 }
 
 th{
