@@ -77,6 +77,16 @@ h3 {
     color: #dbb1bc;
 }
 
+h2 {
+    font-size: 175%;
+    color: #a37374;
+    text-align: center;
+}
+
+h4 {
+    color: #a37374;
+}
+
 p {
     margin: 15px 0;
 }
@@ -174,3 +184,8 @@ tr, td {
     padding: 3px; 
 }
 /* End Location Styles */
+
+
+/* Start Order Styles */
+
+/* End Order Styles */
