@@ -16,7 +16,7 @@ $comment = $_POST["comments"];
 $subject = "Sweet Serendipity Contact Form";
 
 //Enter your email address
-$to = "";
+$to = "gforsyth@butler.edu";
 
 
 //Prepare Email Body Text

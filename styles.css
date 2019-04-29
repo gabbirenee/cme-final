@@ -216,6 +216,7 @@ input {
 
 label {
     margin: 4px; 
+    vertical-align: top;
 }
 
 form label b {
@@ -246,8 +247,8 @@ form label b {
 }
 /* End Order Styles */
 
-/* Start Employment.html Styles */
-#employmentForm {
+/* Start Employment Styles */
+#employmentForm, #contactForm {
     border: 2px solid #2b4570; 
     border-radius: 4px;
     background-color: #8795bdab;
@@ -275,4 +276,14 @@ textarea {
     z-index: -1;
     /* width: 45%; */
 }
-/* End Employment.html Styles */
+/* End Employment Styles */
+
+
+/* Start Contact Styles */
+#contactImg {
+    position: absolute;
+    right: 275px; 
+    top: 290px; 
+    z-index: -1;
+}
+/* End Contact Styles */
