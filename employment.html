@@ -23,9 +23,45 @@
         </header>
 
         <div id="theContent">
-            
+            <h1>Join our Team!</h1>
+            <p>Sweet Serendipity is a growing family ice cream chain and we are always looking for great staff. Whether you're a cashier, a manager, or a dessert chef, we would love to have you as part of our team. If you are interested, please start by filling out our employment form here. We'll get in touch with you from there!</p>
+            <form id="employmentForm">
+                <div id="employmentFormLbl">
+                    <label for="fName">First Name:*</label>
+                    <input type="text" name="fname" id="fName" required /> <br/>
+                    <label for="lName">Last Name:*</label>
+                    <input type="text" name="lName" id="lName" required /> <br/>
+                    <label>Phone Number:*</label>
+                    <input type="text" name="phone" id="phone" placeholder="000-000-0000" required /> <br/>
+                    <label for="email">Email:*</label>
+                    <input type="text" name="email" id="email" required /> <br/>
+                    <label for="position">Position:</label>
+                    <select name="position">
+                        <option value="delivery">Delivery Driver</option>
+                        <option value="inStore">In-store Personnel</option>
+                        <option value="manager">Manager</option>
+                    </select>
+                </div>
+                <p>Availability to work:
+                <input type="checkbox" name="availability" id="day" value="day" />
+                <label for="day">Days</label>
+                <input type="checkbox" name="availability" id="evening" value="evening" />
+                <label for="evening">Evening</label>
+                <input type="checkbox" name="availability" id="lateNight" value="lateNight" />
+                <label for="lateNight">Late Night</label></p>
+                <p>Are you over the age of 18? 
+                    <input type="radio" name="over18" id="yes" value="yes" />
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="over18" id="no" value="no" />
+                    <label for="no">No</label>
+                </p>
+                <p>Why should we hire you?</p>
+                <textarea placeholder="Important Skills and Special Talents"></textarea>
+                <br/>
+                <input type="submit" value="Send Application" id="submit" />
+            </form>
+            <img src="images/employees.jpg" alt="Employees" id="employeeImg" height="328" width="500" />
         </div>
-
         <footer>
             <p><a href="#top" id="toTop">Go to Top</a></p> <br/>
             <p>Questions? Suggestions? Compliments? <a href="contact.html">Contact Us!</a></p>

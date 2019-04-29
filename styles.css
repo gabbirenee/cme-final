@@ -115,8 +115,6 @@ p {
 
 /* Begin Location Styles */
 
-/* #storeImg {
-} */
 .location {
     margin: 50px 0;
     /* position: relative;  */
@@ -247,3 +245,34 @@ form label b {
     float: left; 
 }
 /* End Order Styles */
+
+/* Start Employment.html Styles */
+#employmentForm {
+    border: 2px solid #2b4570; 
+    border-radius: 4px;
+    background-color: #8795bdab;
+    color: snow;
+    padding: 8px; 
+    width: 40%;
+    min-width: 310px;
+}
+
+#employmentFormLbl label {
+    width: 125px; 
+    text-align: right; 
+    display: inline-block;
+}
+
+textarea {
+    width: 300px; 
+    height: 75px;
+}
+
+#employeeImg {
+    position: absolute; 
+    right: 150px; 
+    top: 374px; 
+    z-index: -1;
+    /* width: 45%; */
+}
+/* End Employment.html Styles */
