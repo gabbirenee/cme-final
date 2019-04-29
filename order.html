@@ -66,6 +66,90 @@
                         <label for="bears">Gummy Bears</label><br/>
                     </div>
                 </fieldset>
+                <fieldset>
+                    <legend>Creations</legend>
+                    <div class="creation">
+                        <input type="radio" name="creations" id="dreamSpecial" value="dreamSpecial" />
+                        <label for="dreamSpecial"><b>Dream Special $8.53</b> - One Scoop of chocolate between two scoops of vanilla ice cream, hot fudge, and peanut butter toppings, real whipped cream, nuts, and cherries over sliced banana.</label> <br/>
+                        <img src="images/dreamSpecial.jpeg" alt="Dream Special" width="230" height="240" />
+                    </div>
+                    <div class="creation">
+                        <input type="radio" name="creation" id="happyChance" value="happyChance" />
+                        <label for="happyChance"><b>Happy Chance $8.53</b> - Three scoops of ice cream, chocolate chips, hot fudge, crushed Oreos, real whipped cream, a cherry.</label> <br/>
+                        <img src="images/happyChance.jpg" alt="Happy Chance" width="220" height="300" />
+                    </div>
+                    <div class="creation">
+                        <input type="radio" name="creation" id="luckyBreak" value="luckyBreak" />
+                        <label for="luckyBreak"><b>Lucky Break $6.88</b> - Two scoops of ice cream covered with your choice of two toppings, real whipped cream, nuts, and a cherry.</label> <br/>
+                        <img src="images/luckyBreak.jpeg" alt="Lucky Break" width="230" height="240" />
+                    </div> 
+                    <div class="creation">
+                        <input type="radio" name="creation" id="sweetSplit" value="sweetSplit" />
+                        <label for="sweetSplit"><b>The Sweet Split $8.53</b> - Vanilla, chocolate, and strawberry ice cream, chocolate syrup, marshmallow and pineapple toppings, real whipped cream, nuts and a cherry all atop a banana.</label> <br/>
+                        <img src="images/sweetSplit.jpg" alt="Sweet Split" width="230" height="240" />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>On the Go!</legend>
+                    <input type="radio" name="onTheGo" id="halfGall" value="halfGall" />
+                    <label for="halfGall">Half Gallon of Ice Cream <b>$18.43</b></label>
+                    <input type="radio" name="onTheGo" id="quart" value="quart" />
+                    <label for="quart">Quart of Ice Cream <b>$11.11</b></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Shakes & Malts</legend>
+                    <div class="shakeMalt">
+                        <input type="radio" name="shakeMalt" id="shake" value="shake" />
+                        <label for="shake"><b>Shake $5.78</b> - Thick, delicious shakes made-to-order with any flavor of ice cream and one flavor of syrup.</label>
+                        <div class="shakeMaltFlav">
+                            <input type="radio" name="shakeFlav" id="shakeVan" value="vanilla" />
+                            <label for="shakeVan">Vanilla</label> <br/>
+                            <input type="radio" name="shakeFlav" id="shakeChoc" value="chocolate" />
+                            <label for="shakeChoc">Chocolate</label> <br/>
+                            <input type="radio" name="shakeFlav" id="shakeStraw" value="strawberry" />
+                            <label for="shakeStraw">Strawberry</label> <br/>
+                            <input type="radio" name="shakeFlav" id="shakeMint" value="mint" />
+                            <label for="shakeMint">Mint Chocolate Chip</label> <br/>
+                            <input type="radio" name="shakeFlav" id="shakeOreo" value="oreo" />
+                            <label for="shakeOreo">Oreo</label> <br/>
+                            <input type="radio" name="shakeFlav" id="shakeDough" value="cookieDough" />
+                            <label for="shakeDough">Cookie Dough</label> <br/>
+                        </div>
+                    </div>
+                    <div class="shakeMalt">
+                        <input type="radio" name="shakeMalt" id="malt" value="malt" />
+                        <label for="malt"><b>Malt $5.94</b> - Creamy malts are made-to-order with any flavor of ice cream and flavor of syrup.</label>
+                        <div class="shakeMaltFlav">
+                            <input type="radio" name="maltFlav" id="maltVan" value="vanilla" />
+                            <label for="maltVan">Vanilla</label> <br/>
+                            <input type="radio" name="maltFlav" id="maltChoc" value="chocolate" />
+                            <label for="maltChoc">Chocolate</label> <br/>
+                            <input type="radio" name="maltFlav" id="maltStraw" value="strawberry" />
+                            <label for="maltStraw">Strawberry</label> <br/>
+                            <input type="radio" name="maltFlav" id="maltMint" value="mint" />
+                            <label for="maltMint">Mint Chocolate Chip</label> <br/>
+                            <input type="radio" name="maltFlav" id="maltOreo" value="oreo" />
+                            <label for="maltOreo">Oreo</label> <br/>
+                            <input type="radio" name="maltFlav" id="maltDough" value="cookieDough" />
+                            <label for="maltDough">Cookie Dough</label> <br/>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Payment Information</legend>
+                    <p>How would you like to pay for your order?</p>
+                    <input type="radio" name="payment" id="cash" value="cash" />
+                    <label for="cash">Cash</label>
+                    <input type="radio" name="payment" id="check" value="check" />
+                    <label for="check">Check</label>
+                    <input type="radio" name="payment" id="credit" value="credit" />
+                    <label for="credit">Credit Card:</label>
+                    <input type="password" name="creditNumber" /> <br/>
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email">
+                    <p>You will receive an email when your order is ready!</p>
+                    <input type="submit" value="Place Order!" id="submit" />
+                </fieldset>
             </form>
         </div>
 

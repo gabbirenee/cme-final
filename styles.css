@@ -126,7 +126,7 @@ p {
     /* height: 254px; */
 }
 
-button {
+button, #submit {
     /* background-color: #a37874; */
     background-color: #dbb1bc;
     /* color: #2b4570; */
@@ -139,7 +139,7 @@ button {
 
 }
 
-button:hover {
+button:hover, #submit:hover {
     background-color: #a8d0db
 }
 
@@ -187,5 +187,42 @@ tr, td {
 
 
 /* Start Order Styles */
+fieldset {
+    padding: 10px 5px; 
+    margin: 10px auto; 
+    max-width: 1100px; 
+    min-width: 800px;
+}
 
+input {
+    /* padding: 2px;  */
+    margin: 8px 4px;
+}
+
+label {
+    margin: 4px; 
+}
+
+.creation {
+    width: 240px; 
+    position: relative; 
+    float: left; 
+    margin: 10px; 
+
+}
+
+.toppings {
+    float: left;
+    margin: 5px 30px; 
+}
+
+.shakeMaltFlav {
+    margin: 5px 20px;  
+}
+
+.shakeMalt {
+    max-width: 500px; 
+    min-width: 450px; 
+    float: left; 
+}
 /* End Order Styles */
