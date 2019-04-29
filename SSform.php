@@ -37,7 +37,7 @@ if($send_contact) {
 	print "<meta http-equiv=\"refresh\" content=\"0;URL=Thanks.php\">";
 }
  else {
-	 print "<meta http-equiv=\"refresh\" content=\"0;URL=contact.html\">";
+	 print "<meta http-equiv=\"refresh\" content=\"0;URL=contactError.html\">";
 }
 ?>
 
