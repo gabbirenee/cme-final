@@ -84,7 +84,7 @@ h2 {
 }
 
 h4 {
-    color: #a37374;
+    color: #2b4570;
 }
 
 p {
@@ -192,6 +192,23 @@ fieldset {
     margin: 10px auto; 
     max-width: 1100px; 
     min-width: 800px;
+    border: 2px solid #2b4570; 
+    border-radius: 4px;
+    background-color: #8795bdab;
+    color: snow;
+}
+
+legend {
+    background-image: url(images/waffleConeBackground.jpg);
+    border-radius: 4px;
+    border: 2px solid #2b4570;
+    padding: 5px; 
+    margin-left: 6px; 
+    color: #2b4570;
+    width: 250px; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 140%;
 }
 
 input {
@@ -201,6 +218,10 @@ input {
 
 label {
     margin: 4px; 
+}
+
+form label b {
+    color: #2b4570; 
 }
 
 .creation {
