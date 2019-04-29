@@ -64,6 +64,7 @@ footer {
 #theContent {
     padding: 40px 100px;
     line-height: 130%;
+    min-height: 400px; 
 }
 
 h1 {
