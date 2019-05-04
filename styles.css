@@ -288,3 +288,24 @@ textarea {
     z-index: -1;
 }
 /* End Contact Styles */
+
+/* Start Index Styles */
+#indexContent {
+    margin: 0;
+    padding: 0;
+}
+
+#dealOfDay {
+    background-image: url(images/dealOfDayHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+
+#dealOfDay h1, #dealOfDay h3 {
+    color: snow;
+    margin: 0; 
+    padding: 10px; 
+}
+/* End Index Styles */
