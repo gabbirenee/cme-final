@@ -216,7 +216,11 @@ input {
 }
 
 label {
-    margin: 4px; 
+    margin: 0 4px; 
+    vertical-align: center; 
+}
+
+#comments {
     vertical-align: top;
 }
 
