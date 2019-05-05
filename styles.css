@@ -124,6 +124,7 @@ p {
     min-width: 100px; */
     /* float: left; */
     /* height: 254px; */
+    /* float: right; */
 }
 
 #locationText {
@@ -170,13 +171,15 @@ a:hover {
 table {
     border: 2px solid #7180ac;
     border-collapse: collapse; 
-    width: 50%;     /* These next couple lines make the table responsive */
+    width: 40%;     /* These next couple lines make the table responsive */
     min-width: 100px; 
     max-width: 500px; 
-    margin: 0 40px 
+    /* margin: 0 40px  */
     /* position: relative; */
     /* right: 20px; */
     /* float: right; */
+    height: 200px; 
+    /* display: inline-block;  */
 }
 
 th{
@@ -197,6 +200,16 @@ tr, td {
     border: 1px solid #7180ac;
     color: #2b4570;
     padding: 3px; 
+}
+
+.location {
+    width: 40%;
+    height: 200px; 
+    display: inline-block;
+}
+
+.locationAndTable {
+
 }
 /* End Location Styles */
 
